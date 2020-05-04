@@ -7,3 +7,5 @@ allow priv_app proc_modules:file { open };
 allow priv_app device:dir { open };
 allow priv_app proc_interrupts:file { open };
 allow priv_app sysfs_android_usb:file { open };
+allow priv_app sysfs_graphics:file { read };
+allow priv_app sysfs_graphics:file { open };

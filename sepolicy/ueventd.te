@@ -8,3 +8,4 @@ allow ueventd vfat:file { read };
 allow ueventd vfat:file { open };
 allow ueventd vfat:file { getattr };
 allow ueventd debugfs:dir { read };
+allow ueventd debugfs:dir { open };
